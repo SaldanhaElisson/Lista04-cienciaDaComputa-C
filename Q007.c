@@ -1,5 +1,8 @@
+// desafio
+/* Escreva um programa que concatene duas strings utilizando ponteiros.*/
+
 #include <stdio.h>
-# include <stdlib.h>
+#include <stdlib.h>
 
 void imprimindoString(const int, const char *);
 void alocandoBytesChar(char *, int );
@@ -15,17 +18,14 @@ int main(){
     scanf("%d", &qtd1);
     getchar();
 
-
     string1 = malloc(qtd1 * sizeof(char));
-    
-  
+      
     puts("Digite o tamanho da segunda string: ");
     scanf("%d", &qtd2);
 
     qtdTotal = qtd1 + qtd2;
     string1 = malloc(qtdTotal* sizeof(char));
     string2 = malloc(qtd2 * sizeof(char));
-
 
 
     // capturando a 1° string

@@ -1,3 +1,5 @@
+// desafio:
+/*Escreva um programa que copie uma string para outra usando ponteiros. */
 #include <stdio.h>
 #include <stdlib.h>
 

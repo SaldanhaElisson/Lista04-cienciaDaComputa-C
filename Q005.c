@@ -1,6 +1,8 @@
 #include <stdio.h>
-#include <stdlib.h>
+// Desafio:
+/*Escreva um programa que encontre o tamanho de uma string fornecida. Utilize ponteiros. */
 
+#include <stdlib.h>
 
 int main(){
     char string[] = "elisson";

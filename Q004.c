@@ -1,3 +1,7 @@
+// desafio 
+/* Escreva um programa que leia um vetor do usu ́ario e imprima seus valores e seus endere ̧cos. Teste
+o vetor com tipos de dados diferentes, analise os endere ̧cos. O que vocˆe observou?*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
