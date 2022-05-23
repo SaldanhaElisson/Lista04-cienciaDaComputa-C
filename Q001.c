@@ -13,10 +13,9 @@ int main(){
     scanf("%d", Ptrn1);
     
     puts("Digite o segundo numero: ");
+    getchar();
     scanf("%d", Ptrn2);
 
-
-    
 
     puts("Adicionando...");
 

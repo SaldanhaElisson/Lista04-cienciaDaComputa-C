@@ -4,10 +4,19 @@ Crie um vetor F com N posi ̧c ̃oes e armazene em cada posi ̧c ̃ao de F a qua
 dos elementos de X.*/
 #include <stdio.h>
 
+void void gerandoValoresAleatorios(int *const, int);
+
 int main(){
     int qtd, *numeros, *positions;
+
 
     
 
     return 0;
+}
+
+void gerandoValoresAleatorios(int *const vetor, int qtd){
+    for( int i = 0; i < qtd; i++){
+        *(vetor + i) = rand()  % 100;
+    }
 }
