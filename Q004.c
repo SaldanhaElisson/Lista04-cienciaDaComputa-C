@@ -1,5 +1,5 @@
 // desafio 
-/* Escreva um programa que leia um vetor do usu ́ario e imprima seus valores e seus endere ̧cos. Teste
+/* Escreva um programa que leia um vetor do usu ́ario e imprima seus valores e seus endere cos. Teste
 o vetor com tipos de dados diferentes, analise os endere ̧cos. O que vocˆe observou?*/
 
 #include <stdio.h>
@@ -18,8 +18,8 @@ int main(){
 
     // capturando dados do vetor
     for(int i = 0; i < qtd; i++){
-        printf("Digite um numero para a posição do vetor %c \n", i);
-        scanf("%c", (pv+i));
+        printf("Digite um numero para a posição do vetor %d \n", i);
+        scanf("%d", (pv+i));
         getchar();
     }   
 

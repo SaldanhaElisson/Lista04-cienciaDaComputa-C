@@ -29,8 +29,6 @@ int main(){
     puts("Copia da String");
     imprimindoString(qtd, copyString);
    
-
-
     return 0;
 }
 

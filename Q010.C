@@ -52,9 +52,10 @@ void identificandoOcorrencias(const int *const vetorElem, int *const vetorOcorr,
 }
 
 void imprimindoVetores(const int *const vetor, const int qtd){
+    printf("[");
     for (int i = 0; i < qtd; i++)
     {
-        printf("[%d, ", *(vetor+i));
+        printf("%d, ", *(vetor+i));
     }
     printf("]\n");
 }
