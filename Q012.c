@@ -59,7 +59,6 @@ void gerandoValoresVetoresEmy( int *const vetoresY,const int *const vetoresX , c
     }
 }
 
-
 void identificandoOcorrMatriz(const int *const linEl, const int *const colEl, int *const matrizOcor, const int tamVetores, const int tamMatrizColuna){
     int k = 0;
     for(int i = 0; i < tamVetores; i++){
